@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "manifest_version": 2,
+  "name": "click tracker",
+  "author": "Zizhen Song",
+  "description": "Tracks and analyzes clicks of the user",
+  "icons" : {
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
